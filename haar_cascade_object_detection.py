@@ -37,7 +37,7 @@ while True:
     cv.imshow('img', img)
     k = cv.waitKey(30) & 0xFF
     
-    if k ==27:
+    if k == 27:
         break
     
 cap.release()
